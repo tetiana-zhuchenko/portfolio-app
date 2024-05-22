@@ -5,13 +5,13 @@ import { Footer } from './components/Footer/Footer'
 
 import './globals.css'
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
   display: 'swap',
 })
 
-export const inconsolata = Inconsolata({
+const inconsolata = Inconsolata({
   subsets: ['latin'],
   variable: '--font-inconsolata',
   display: 'swap',
