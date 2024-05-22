@@ -1,8 +1,21 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Montserrat, Inconsolata } from 'next/font/google'
+import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer/Footer'
+
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+export const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+})
+
+export const inconsolata = Inconsolata({
+  subsets: ['latin'],
+  variable: '--font-inconsolata',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Tetiana Zhuchenko/Projects',
@@ -15,8 +28,15 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="en"
+      className={`${montserrat.variable} ${inconsolata.variable}`}
+    >
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
