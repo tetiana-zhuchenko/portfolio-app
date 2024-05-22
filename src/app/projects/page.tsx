@@ -1,5 +1,7 @@
 import styles from './page.module.css'
 
-export const Projects = () => {
+const Projects = () => {
   return <div>page</div>
 }
+
+export default Projects
