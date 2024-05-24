@@ -36,11 +36,9 @@ export default function RootLayout({
     >
       <body>
         <ThemeContainer>
-          <GeneralContainer>
-            <Header />
-            {children}
-            <Footer />
-          </GeneralContainer>
+          <Header />
+          <GeneralContainer>{children}</GeneralContainer>
+          <Footer />
         </ThemeContainer>
       </body>
     </html>

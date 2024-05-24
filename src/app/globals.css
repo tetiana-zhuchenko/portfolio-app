@@ -1,15 +1,19 @@
 :root {
-  --text-primary-light: #000000;
+  --text-primary-light: #4d4d4d;
   --text-primary-dark: #ffffff;
 
-  --text-secondary-light: #808080;
+  --text-secondary-light: #81c784;
   --text-secondary-dark: #cacaca;
 
   --bg-primary-light: #ffffff;
   --bg-primary-dark: #000000;
 
-  --bg-secondary-light: #808080;
+  /* --bg-secondary-light: #28cb8b; */
+  /* --bg-secondary-light: #4caf4f; */
+  --bg-secondary-light: #81c784;
   --bg-secondary-dark: #cacaca;
+
+  --secondary-hover: #66bb69;
 
   --max-width: 1100px;
 }
@@ -17,7 +21,7 @@
 .light-theme {
   --text-primary: var(--text-primary-light);
   --text-secondary: var(--text-secondary-light);
-  --bg-primary: var(--text-primary-light);
+  --bg-primary: var(--bg-primary-light);
   --bg-secondary: var(--bg-secondary-light);
 }
 

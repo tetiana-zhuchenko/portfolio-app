@@ -6,7 +6,7 @@ import Link from 'next/link'
 export const Navbar = () => {
   return (
     <nav>
-      <ul>
+      <ul className={styles.linksWrapper}>
         {initialNavLinks.map((item) => (
           <li key={item.title}>
             <Link href={item.url}>{item.title}</Link>

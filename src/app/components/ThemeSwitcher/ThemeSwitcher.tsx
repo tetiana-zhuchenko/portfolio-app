@@ -7,7 +7,7 @@ import Button from '../Button/Button'
 export const ThemeSwitcher = () => {
   const handleBtnClick = () => {}
   return (
-    <ul>
+    <ul className={styles.container}>
       {initialThemes.map((theme) => (
         <li key={theme.title}>
           <Button
