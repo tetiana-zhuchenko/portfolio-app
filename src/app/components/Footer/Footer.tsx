@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.normal}>
       Footer
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium

@@ -41,13 +41,14 @@
 
 html,
 body {
-  max-width: 1100px;
+  /* move this selectors in separate container added to layout because of theme problem */
+  /* max-width: 1100px; */
   margin: auto;
 }
 
 body {
   text-rendering: optimizeSpeed;
-  color: var(--font-color);
+  color: var(--text-primary);
   background: var(--bg-primary);
 }
 
@@ -59,6 +60,16 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Delete later it was for testing fonts */
 h1 {
   font-family: var(--font-montserrat);
 }

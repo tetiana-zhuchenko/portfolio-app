@@ -4,6 +4,8 @@ import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer'
 
 import './globals.css'
+import { ThemeContainer } from './components/ThemeContainer/ThemeContainer'
+import { GeneralContainer } from './components/GeneralContainer/GeneralContainer'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -33,9 +35,13 @@ export default function RootLayout({
       className={`${montserrat.variable} ${inconsolata.variable}`}
     >
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <ThemeContainer>
+          <GeneralContainer>
+            <Header />
+            {children}
+            <Footer />
+          </GeneralContainer>
+        </ThemeContainer>
       </body>
     </html>
   )
