@@ -2,3 +2,9 @@
   display: flex;
   gap: 20px;
 }
+
+.link {
+  color: var(--text-primary-light);
+  font-family: var(--font-montserrat);
+  font-weight: 700;
+}

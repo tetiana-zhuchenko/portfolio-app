@@ -9,7 +9,9 @@ export const Navbar = () => {
       <ul className={styles.linksWrapper}>
         {initialNavLinks.map((item) => (
           <li key={item.title}>
-            <Link href={item.url}>{item.title}</Link>
+            <Link href={item.url} className={styles.link}>
+              {item.title}
+            </Link>
           </li>
         ))}
       </ul>

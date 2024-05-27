@@ -45,8 +45,6 @@
 
 html,
 body {
-  /* move this selectors in separate container added to layout because of theme problem */
-  /* max-width: 1100px; */
   margin: auto;
 }
 

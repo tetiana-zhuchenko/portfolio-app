@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 
 const AboutMe = () => {
-  return <div>page</div>
+  return <div>AboutMe</div>
 }
 
 export default AboutMe
