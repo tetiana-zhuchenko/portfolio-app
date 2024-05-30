@@ -1,23 +1,22 @@
 'use client'
 
-import { initialThemes } from 'src/app/data/initialThemes'
 import styles from './ThemeSwitcher.module.css'
-import Button from '../Button/Button'
+
+import { ThemeIcon } from '../ThemeIcon/ThemeIcon'
 
 export const ThemeSwitcher = () => {
   const handleBtnClick = () => {}
   return (
-    <ul className={styles.container}>
-      {initialThemes.map((theme) => (
-        <li key={theme.title}>
-          <Button
-            handleClick={handleBtnClick}
-            title={theme.title}
-            type="button"
-            disabled={false}
-          />
+    <>
+      <ul className={styles.container}>
+        <li key="light" className={styles.icon}>
+          <ThemeIcon isLight={true} />
         </li>
-      ))}
-    </ul>
+        <li className={styles.divider}></li>
+        <li key="dark">
+          <ThemeIcon isLight={false} />
+        </li>
+      </ul>
+    </>
   )
 }

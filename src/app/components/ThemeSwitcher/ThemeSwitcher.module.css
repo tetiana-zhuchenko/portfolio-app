@@ -1,4 +1,11 @@
 .container {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 4rem;
+}
+
+.divider {
+  width: 0.2rem;
+  height: 4rem;
+  background: var(--bg-primary);
 }

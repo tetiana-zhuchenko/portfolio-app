@@ -1,10 +1,12 @@
 'use client'
 
+import { StaticImageData } from 'next/image'
 import styles from './Button.module.css'
+import { ReactNode } from 'react'
 
 interface ButtonProps {
   handleClick: () => void
-  title: string
+  title: string | ReactNode
   type: 'submit' | 'reset' | 'button' | undefined
   disabled: boolean
 }

@@ -1,11 +1,12 @@
 :root {
-  --text-primary-light: #4d4d4d;
+  /* --text-primary-light: #4d4d4d; */
+  --text-primary-light: #656565;
   --text-primary-dark: #ffffff;
 
   --text-secondary-light: #81c784;
   --text-secondary-dark: #cacaca;
 
-  --bg-primary-light: #ffffff;
+  --bg-primary-light: #d8fce7;
   --bg-primary-dark: #000000;
 
   /* --bg-secondary-light: #28cb8b; */
@@ -45,6 +46,7 @@
 
 html,
 body {
+  font-size: 62.7%;
   margin: auto;
 }
 
