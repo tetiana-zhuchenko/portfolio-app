@@ -7,4 +7,5 @@
   color: var(--text-primary-light);
   font-family: var(--font-montserrat);
   font-weight: 700;
+  font-size: var(--link-size);
 }

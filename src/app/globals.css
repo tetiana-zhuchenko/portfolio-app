@@ -6,7 +6,7 @@
   --text-secondary-light: #81c784;
   --text-secondary-dark: #cacaca;
 
-  --bg-primary-light: #d8fce7;
+  --bg-primary-light: #e4fff0;
   --bg-primary-dark: #000000;
 
   /* --bg-secondary-light: #28cb8b; */
@@ -15,6 +15,10 @@
   --bg-secondary-dark: #cacaca;
 
   --secondary-hover: #66bb69;
+
+  --title-size: 3.2rem;
+  --link-size: 1.6rem;
+  --text-size: 1.4rem;
 
   --max-width: 1100px;
 }
