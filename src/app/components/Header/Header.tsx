@@ -10,10 +10,14 @@ export const Header = () => {
     <header className={styles.normal}>
       <GeneralContainer>
         <div className={styles.container}>
-          <SocialMediaLinks />
-          <MyLogo />
-          <Navbar />
-          <ThemeSwitcher />
+          <div className={styles.wrapper}>
+            <MyLogo />
+            <ThemeSwitcher />
+            <SocialMediaLinks />
+          </div>
+          <div className={styles.navWrapper}>
+            <Navbar />
+          </div>
         </div>
       </GeneralContainer>
     </header>
