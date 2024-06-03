@@ -13,7 +13,7 @@ export const SocialMediaLink = ({ linkInfo }: TSocialMediaLink) => {
         }
         target="_blank"
       >
-        <img src={linkInfo.icon} alt="test" />
+        <img src={linkInfo.icon} alt={linkInfo.title} />
       </a>
     </li>
   )
