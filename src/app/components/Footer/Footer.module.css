@@ -1,6 +1,6 @@
 .normal {
   background-color: var(--bg-secondary);
-  height: 80px;
+  height: var(--footer-height);
 }
 
 .container {
