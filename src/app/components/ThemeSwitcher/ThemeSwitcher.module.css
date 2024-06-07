@@ -1,11 +1,11 @@
 .container {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.2rem;
 }
 
 .divider {
-  width: 0.2rem;
-  height: 3rem;
+  width: 0.1rem;
+  height: 2.5rem;
   background: var(--text-primary);
 }

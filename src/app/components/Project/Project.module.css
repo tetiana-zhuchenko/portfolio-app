@@ -1,0 +1,26 @@
+.container {
+  width: 30rem;
+  border: 0.2rem solid var(--bg-secondary);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.title {
+  font-family: var(--font-montserrat);
+  font-size: var(--title-secondary-size);
+}
+
+.bio {
+  font-family: var(--font-inconsolata);
+  font-size: var(--text-size);
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
