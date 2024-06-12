@@ -1,11 +1,14 @@
+'use client'
+
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { initialNavLinks } from 'src/app/data/initialNavLinks'
 
 import styles from './Navbar.module.css'
 
-import Link from 'next/link'
-
 export const Navbar = () => {
-  const isActiveLink = true
+  const path = usePathname()
+
   return (
     <nav>
       <ul className={styles.linksWrapper}>
@@ -13,7 +16,9 @@ export const Navbar = () => {
           <li key={item.title}>
             <Link
               href={item.url}
-              className={item.url === './' ? styles.activeLink : styles.link}
+              className={
+                item.url === `.${path}` ? styles.activeLink : styles.link
+              }
             >
               {item.title}
             </Link>

@@ -24,7 +24,7 @@
   border-top-right-radius: var(--border-radius);
   height: 0;
   width: 14rem;
-  top: -0.6rem;
+  top: -0.45rem;
   left: 0rem;
   z-index: -1;
 }
@@ -38,19 +38,19 @@
   padding: 1rem 0rem 0rem 4rem;
   background-color: transparent;
   position: relative;
-  z-index: 1;
+  z-index: 3;
   width: 12.5rem;
 }
 
 .activeLink::before {
   position: absolute;
   content: '';
-  border-bottom: 4.3rem solid #fdfdfd;
+  border-bottom: 4.4rem solid var(--bg-primary);
   border-left: 4.6rem solid transparent;
   border-top-right-radius: var(--border-radius);
   height: 0;
   width: 14rem;
-  top: -0.6rem;
+  top: -0.435rem;
   left: 0rem;
   z-index: -1;
 }
