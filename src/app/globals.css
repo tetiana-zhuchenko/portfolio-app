@@ -14,6 +14,9 @@
   --bg-secondary-light: #81c784;
   --bg-secondary-dark: #cacaca;
 
+  --bg-third-light: #43a047;
+
+  /* use hover-light instead */
   --secondary-hover: #66bb69;
   --secondary-active: #6bb76d;
 

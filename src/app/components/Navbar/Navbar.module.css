@@ -16,10 +16,15 @@
   width: 12.5rem;
 }
 
+.link:active {
+  color: var(--secondary-active);
+}
+
 .link::before {
   position: absolute;
   content: '';
-  border-bottom: 4.3rem solid #43a047;
+  border-bottom: 4.3rem solid var(--bg-third-light);
+  /* border-bottom: 4.3rem solid #6bb76d; */
   border-left: 4.6rem solid transparent;
   border-top-right-radius: var(--border-radius);
   height: 0;
@@ -53,4 +58,8 @@
   top: -0.435rem;
   left: 0rem;
   z-index: -1;
+}
+
+.activeLink:active {
+  color: var(--secondary-active);
 }
