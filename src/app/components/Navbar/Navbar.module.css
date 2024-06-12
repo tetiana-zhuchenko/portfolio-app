@@ -1,6 +1,5 @@
 .linksWrapper {
   display: flex;
-  /* gap: 10px; */
   padding: 1rem;
 }
 
@@ -14,19 +13,19 @@
   background-color: transparent;
   position: relative;
   z-index: 1;
-  width: 125px;
+  width: 12.5rem;
 }
 
 .link::before {
   position: absolute;
   content: '';
-  border-bottom: 43px solid #43a047;
-  border-left: 46px solid transparent;
-  border-top-right-radius: 8px;
+  border-bottom: 4.3rem solid #43a047;
+  border-left: 4.6rem solid transparent;
+  border-top-right-radius: var(--border-radius);
   height: 0;
-  width: 140px;
-  top: -6px;
-  left: 0px;
+  width: 14rem;
+  top: -0.6rem;
+  left: 0rem;
   z-index: -1;
 }
 
@@ -40,18 +39,18 @@
   background-color: transparent;
   position: relative;
   z-index: 1;
-  width: 125px;
+  width: 12.5rem;
 }
 
 .activeLink::before {
   position: absolute;
   content: '';
-  border-bottom: 43px solid #fdfdfd;
-  border-left: 46px solid transparent;
-  border-top-right-radius: 8px;
+  border-bottom: 4.3rem solid #fdfdfd;
+  border-left: 4.6rem solid transparent;
+  border-top-right-radius: var(--border-radius);
   height: 0;
-  width: 140px;
-  top: -6px;
-  left: 0px;
+  width: 14rem;
+  top: -0.6rem;
+  left: 0rem;
   z-index: -1;
 }
