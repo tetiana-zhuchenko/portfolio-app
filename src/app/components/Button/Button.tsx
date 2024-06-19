@@ -1,6 +1,5 @@
 'use client'
 
-import { StaticImageData } from 'next/image'
 import styles from './Button.module.css'
 import { ReactNode } from 'react'
 import Link from 'next/link'

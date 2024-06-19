@@ -30,6 +30,7 @@ export const Project = () => {
     <article className={styles.container}>
       <Image src={openTableImg} width={276} height={250} alt={'logo'} />
       <h1 className={styles.title}>OpenTable (Table Booking Replica)</h1>
+
       <p className={styles.bio}>
         "I'm actively working on a replica of the renowned table booking
         platform, OpenTable. Leveraging my frontend development skills and a
