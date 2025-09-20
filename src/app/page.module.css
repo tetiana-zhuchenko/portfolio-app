@@ -2,6 +2,10 @@
   color: var(--text-primary);
 }
 
+.form {
+  padding: 8px;
+}
+
 .common {
   /* all the common styles you want */
 }

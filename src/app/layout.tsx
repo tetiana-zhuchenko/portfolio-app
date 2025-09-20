@@ -33,9 +33,9 @@ export default function RootLayout({
       className={`${montserrat.variable} ${inconsolata.variable}`}
     >
       <body>
-        <Header />
+        {/* <Header /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   )
